@@ -1,0 +1,296 @@
+.appContainer{
+    width: 100vw;
+    height: calc(100vh - 10vh);
+    background-color: #1A191C;
+    padding: 30px 30px 0 30px;
+
+}
+
+.marginContainer{
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid red; */
+}
+
+.searchContainer{
+    width: 100%;
+    height: 150px;
+    
+}
+
+.searchBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    
+}
+
+.searchBox input {
+    width: 600px;
+    height: 50px;
+    outline: none;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+}
+
+.searchBox button{
+    width: 150px;
+    height: 50px;
+    outline: none;
+    border: none;
+    background-color: #FD366E;
+    font-size: large;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+.searchBox button:hover{
+    border: 2px solid white;
+    scale: 1.1;
+
+}
+
+.toggleBox{
+    display: flex;
+    align-items: center;
+    padding-left: 275px;
+    width: 100%;
+    height: 75px;
+    gap: 10px;
+    padding-bottom: 50px;
+    
+}
+
+.toggleBox input{
+    width: 20px;
+    height: 20px;
+    
+}
+
+.toggleBox h6{
+    font-size: medium;
+    color:#E4E4E7;
+}
+
+.weatherBox{
+    width: 100%;
+    height: 314px;
+    
+    display: flex;
+    align-items: end;
+    column-gap: 10px;
+}
+
+.currentContainer{
+    width: 304px;
+    height: 100%;
+    border-radius: 20px  20px 0 0;
+}
+
+.fourDivContainer{
+    background-color: white;
+    width: 100%;
+    height: calc(304px - 60px);
+    border-radius: 20px  20px 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 h5{
+    font-weight: 400;
+    font-size: large;
+}
+
+.box2 h1{
+    font-size: 40px;
+}
+
+.box3{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-bottom: 10px;
+}
+.box3 img{
+    width: 20px;
+    height: 20px;
+}
+
+.box3 h6{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 10px;
+}
+
+.box4 img{
+    width: 85px;
+    height: 85px;
+}
+.fourDivContainer div{
+    width: 100px;
+    height: 75px;
+    
+}
+
+.borderCurrentBox{
+    width: 100%;
+    height: 66px;
+    background-color: #FD366E;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+}
+.daysContainer{
+    width: 100%;
+    height: 100%;
+   margin-left: 25px;
+    
+}
+
+.forecastTitle{
+    width: 100%;
+    height: 50px;
+}
+
+.forecastTitle h4{
+    font-size: large;
+    font-weight: 600;
+    color: #E4E4E7;
+}
+
+.forecastCardContainer{
+    width: 100%;
+    height: calc(100% - 50px);
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.forecastCard{
+    width: 173px;
+    height: 100%;
+    background-color: white;
+    transition: all 0.3s ease-in;
+    border-radius: 20px;
+}
+.forecastCard:hover{
+    scale: 1.1;
+}
+
+.dayBox1{
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+.dayBox2{
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dayBox3{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dayBox3 img {
+    width: 50px;
+    height: 50px;
+}
+
+.dayBox4{
+    width: 100%;
+    height: 60px;
+    border-radius: 0 0 20px 20px;
+    background-color: #FD366E;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Responsive styles */
+
+/* Adjusting search box input width for smaller screens */
+@media (max-width: 768px) {
+    .searchBox input {
+        width: 80%;
+        max-width: none;
+    }
+}
+
+/* Centering toggle box for smaller screens */
+@media (max-width: 576px) {
+    .toggleBox {
+        padding-left: 0;
+        justify-content: center;
+    }
+}
+
+/* Making the weather box stack vertically for smaller screens */
+@media (max-width: 768px) {
+    .weatherBox {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Adjusting forecast card width and stacking vertically for smaller screens */
+@media (max-width: 768px) {
+    .forecastCardContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .forecastCard {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Adjusting day box 2 height for smaller screens */
+@media (max-width: 768px) {
+    .dayBox2 {
+        height: auto;
+    }
+}
+
+
+.custom-link {
+    color: inherit; 
+    text-decoration: none; 
+    transition: all 0.3s ease-in;
+  }
+  
+  
+  .custom-link:hover {
+    scale: 1.1;
+  }
