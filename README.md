@@ -1,3 +1,15 @@
+## Live Link
+https://weather-app-blond-rho.vercel.app/
+
+## Design Link
+https://www.figma.com/file/o2AZxXZOe9pO2jKSqlsC1f/Untitled?type=design&node-id=0-1&mode=design&t=RqCh7oBp66WCz5nR-0
+
+![Screenshot (36)](https://github.com/abhishek-kumar-91/WeatherApp/assets/111195553/91621b28-05c1-46e1-a15b-ffa8be66e1a2)
+
+![Screenshot (38)](https://github.com/abhishek-kumar-91/WeatherApp/assets/111195553/6cc68b4a-b5eb-42bb-a312-50c19bfb0a69)
+
+![Screenshot (40)](https://github.com/abhishek-kumar-91/WeatherApp/assets/111195553/f379aecc-cc0e-4e0f-9a02-100441d725ed)
+
 # How to Run Vite React Project
 
 This guide will walk you through the steps to run a Vite-powered React project.
