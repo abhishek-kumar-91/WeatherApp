@@ -22,14 +22,19 @@ Before you begin, ensure you have the following installed on your system:
 
    
 1. Navigate to Project Directory: Change your current directory to the root of your project:
+
+    ```bash
     cd your-project-directory
-2. Install Dependencies: Install project dependencies using npm:
+3. Install Dependencies: Install project dependencies using npm:
+
+    ```bash
    npm install
 
 
 Running the Development Server
 To start the development server and run your Vite React project:
 
+ ```bash
 npm run dev
 
 
